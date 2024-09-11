@@ -5,10 +5,10 @@ from sentence_transformers import SentenceTransformer
 from pinecone import Pinecone
 
 # Set up Gemini API
-genai.configure(api_key="AIzaSyBsaDGXpE-hrJpIuzOUf8_UDDIlACgihUs")
+genai.configure(api_key="your-api-key-here")
 
 # Initialize Pinecone
-pc = Pinecone(api_key="136639f2-8514-4dea-b63a-f77b9e614cf2")
+pc = Pinecone(api_key="your-api-key-here")
 index = pc.Index("cone-hello")
 
 # Load the sentence transformer model
